@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/craftman01.github.io/its_my-portfolio/static/css/main.81f9cd9a.css",
+    "main.js": "/craftman01.github.io/its_my-portfolio/static/js/main.63356221.js",
+    "static/media/react.png": "/craftman01.github.io/its_my-portfolio/static/media/react.becbab0ab5d2271d2831.png",
+    "static/media/heroImg.webp": "/craftman01.github.io/its_my-portfolio/static/media/heroImg.b037dfd207272980144f.webp",
+    "static/media/firebase.png": "/craftman01.github.io/its_my-portfolio/static/media/firebase.5aa7cf22cd45ec6bbec2.png",
+    "static/media/Html.png": "/craftman01.github.io/its_my-portfolio/static/media/Html.f3aa7827cd5160f3fc1c.png",
+    "static/media/css.png": "/craftman01.github.io/its_my-portfolio/static/media/css.1334cb45a7d5ad096543.png",
+    "static/media/images.jpeg": "/craftman01.github.io/its_my-portfolio/static/media/images.c941416e3a35b42017e9.jpeg",
+    "index.html": "/craftman01.github.io/its_my-portfolio/index.html",
+    "main.81f9cd9a.css.map": "/craftman01.github.io/its_my-portfolio/static/css/main.81f9cd9a.css.map",
+    "main.63356221.js.map": "/craftman01.github.io/its_my-portfolio/static/js/main.63356221.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81f9cd9a.css",
+    "static/js/main.63356221.js"
+  ]
+}
