@@ -9,7 +9,7 @@ const Contact = () => {
                 Contact
             </p>
             <p className='py-6' >
-                Subit the Form to get
+                Submit the form to contact
             </p>
 
         </div>
