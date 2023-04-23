@@ -11,7 +11,9 @@ const About = () => {
                 About
             </p>
             <p className='text-xl pt-10  text-white' >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. At id sequi numquam corrupti consequuntur est odit alias cupiditate ea autem beatae sunt, maiores consectetur architecto, quisquam illo laborum doloremque eum aspernatur! Exercitationem soluta error possimus, fuga quibusdam architecto, et voluptatum nostrum quia accusantium quae qui totam, esse ab corporis tempore.
+I have a small amount of expertise creating and designing software.
+                        Currently, I enjoy working on web applications using tools like React, Tailwind, Firebase, and Flutter.
+                        <br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, debitis ipsa quasi optio ut culpa delectus quaerat nesciunt obcaecati ea libero quis, et tempore odit natus hic, neque laudantium vitae!
             </p>
             
         </div>

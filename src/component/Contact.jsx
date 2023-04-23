@@ -4,12 +4,12 @@ const Contact = () => {
   return (
     <div name="contact" className=' h-screen w-full  bg-gradient-to-b from-gray-700 to-black p-10  ' >
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full text-white ' >
-        <div className='pb-8'>
+        <div className='pb-8 md:pb-1'>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500 ' >
                 Contact
             </p>
-            <p className='py-6' >
-                Submit the form to contact
+            <p className='py-6 md:py-2' >
+                Submit the form to Talk
             </p>
 
         </div>
@@ -21,7 +21,7 @@ const Contact = () => {
 
                 <textarea name='message' placeholder='Enter your message' rows='10' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none  '></textarea>
 
-                <button className='text-white bg-gradient-to-b from-blue-400 to-cyan-300 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-105 duration-500' >
+                <button className='text-white bg-gradient-to-b from-blue-400 to-cyan-300 px-3 py-3 my-2 mx-auto flex items-center rounded-md hover:scale-105 duration-500' >
                     Let's talk
                 </button>
             </form>
