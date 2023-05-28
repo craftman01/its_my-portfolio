@@ -1,5 +1,5 @@
 import React from 'react'
-import Partfolio from "../assets/images.jpeg"
+import ASWAMEDHA from "../assets/Aswamedha.png"
 import BRAHMA from "../assets/Brahma23.png"
 import HACK from "../assets/Hackathon.png"
 import GALLARY from "../assets/gallery.png"
@@ -42,16 +42,12 @@ const Portfolio = () => {
                             </button >
                         </div>
                     </div>
-
+                    
                     <div className=' shadow-md shadow-gray-600  rounded-lg  ' >
-                        <img src={Partfolio} alt=' ' className='  rounded-md duration-200 hover:scale-105 w-full ' />
+                        <img src={ASWAMEDHA} alt=' ' className='  rounded-md duration-200 hover:scale-105 w-full ' />
                         <div className='flex items-center justify-between  '>
-                            <button className='w-1/2 px-2 md:px-6 py-3 duration-200 hover:scale-105  '  >
-                                Demo
-                            </button >
-                            <button className='w-1/2 px-2 md:px-6 py-3 duration-200 hover:scale-105  '  >
-                                Code
-                            </button >
+                        <a href='https://brahma23.live/' >Demo</a>
+                            <a href='https://github.com/r0king/ashwamedha-home-page.git' >Code</a>
                         </div>
                     </div>
 
