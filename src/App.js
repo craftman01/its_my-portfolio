@@ -17,7 +17,7 @@ function App() {
       <NavBar />
       <Social/>
       <Routes>
-        <Route exact path="/" element={<Hero />} />
+        <Route exact path="/its_my-portfolio" element={<Hero />} />
         <Route exact path="/gallary" element={<Gallary/>} />
         <Route exact path="/events" element={<AllEvents/>} />
 
