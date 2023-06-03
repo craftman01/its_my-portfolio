@@ -67,7 +67,7 @@ const Portfolio = () => {
                 <div className=' shadow-md shadow-gray-600 duration-200 hover:scale-105 font-bold rounded-lg  ' >
                         <img src={GALLARY} alt=' ' className='  rounded-md w-full ' />
                         <div className='flex items-center justify-center  '>
-                            <a href='its_my-portfolio/#/gallary' className='flex justify-center items-center w-4/5 px-2 md:px-6 py-3 duration-200 hover:scale-105  '  >
+                            <a href='#/gallary' className='flex justify-center items-center w-4/5 px-2 md:px-6 py-3 duration-200 hover:scale-105  '  >
                                 Gallary
                             </a >
                         </div>
