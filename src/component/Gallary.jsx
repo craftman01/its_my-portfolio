@@ -143,12 +143,26 @@ const Gallary = () => {
       regLink: "",
       category: "Workshop",
     },
+    {
+      name: "IoT Workshop",
+      src: w4,
+      reg: "300",
+      venue: "CCF Lab",
+      time: "30-03-2023 10:00 AM",
+      regLink: "",
+      category: "Workshop",
+    },
 
   ];
 
   return (
-    <div className=" bg-black ">
-      <div className=" flex " >
+    <div name="gallary" className="h-auto w-full  bg-black p-10 ">
+      <div className=" flex flex-col p-4 justify-center items-center " >
+      <div className='pb-8 md:pb-1  text-center'>
+            <p className='text-white text-4xl font-bold inline   ' >
+                Gallery
+            </p>
+            </div>
 
         <div className="mt-20 grid max-w-screen-xl grid-cols-1 gap-4 mx-3 md:mx-auto my-5 md:gap-y-20 justify-items-center md:grid-cols-3">
           {images.map((image, index) => (

@@ -22,7 +22,7 @@ const Home = () => {
 
                     </p> */}
                     <div>
-                        <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-600 to-cyan-400 ' >
+                        <Link to="portfolio" smooth duration={500} className='group text-white border-2 w-fit px-6 py-3 my-2 flex items-center rounded-lg  bg-black  ' >
                             Portfolio
                             <span className=' group-hover:rotate-90 duration-300'>
                             <BsArrowRightShort size={20} />
