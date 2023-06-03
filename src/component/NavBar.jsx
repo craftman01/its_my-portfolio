@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
 import {Link} from "react-scroll"
+import Cm from "../assets/Group 1.png"
 
 const NavBar = () => {
     const [nav, setNav] = useState(false)
@@ -27,10 +28,11 @@ const NavBar = () => {
         }
     ]
     return (
-        <div className='flex justify-between items-center w-full h-16 px-4 text-white fixed bg-gray-700' >
+        <div className='flex flex-row justify-around items-center  w-full h-16 px-4 text-white fixed bg-black' >
 
-            <div>
-                <h1 className=' text-4xl capitalize font-signature ml-2' >
+            <div className='flex flex-row justify-start items-center'>
+                <img src={Cm} alt='cm' className=' h-10 w-auto ' />
+                <h1 className=' text-4xl capitalize font-jockey ml-2' >
                     Suraj m rajeev
                 </h1>
             </div>
@@ -38,7 +40,7 @@ const NavBar = () => {
             <ul className='hidden md:flex'>
 
                 {links.map(({ id, link }) => (
-                    <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-200 hover:scale-105 duration-200 '>
+                    <li key={id} className='px-4 cursor-pointer capitalize font-jockey font-medium text-gray-200 hover:scale-105 duration-200 '>
                         <Link to={link} smooth duration={500}  > {link} </Link>
                     </li>
                 ))}

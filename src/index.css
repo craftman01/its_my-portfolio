@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,5 +11,6 @@
 @layer base{
     html{
         font-family: 'Raleway', sans-serif;
+         
     }
 }
