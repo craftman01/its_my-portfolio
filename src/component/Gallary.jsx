@@ -160,10 +160,10 @@ const Gallary = () => {
     <>
     <div className='flex flex-row justify-between items-center z-10  w-full h-16 px-4 text-white fixed bg-black' >
 
-<div className='justify-start items-center'>
+<div className='flex justify-start items-center'>
     
-    <a href='home'><img   src={Cm} alt='cm' className=' h-10 w-auto ' /></a>
-    <a href='home' className=' text-4xl capitalize font-jockey ml-2' >
+    <a href='/'><img   src={Cm} alt='cm' className=' h-10 w-auto ' /></a>
+    <a href='/' className=' text-4xl capitalize font-jockey ml-2' >
         Suraj m rajeev
     </a>
 </div>

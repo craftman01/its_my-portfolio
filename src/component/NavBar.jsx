@@ -32,8 +32,8 @@ const NavBar = () => {
 
             <div className='flex justify-start items-center'>
                 
-                <a href='home'><img   src={Cm} alt='cm' className=' h-10 w-auto ' /></a>
-                <a href='home' className=' text-4xl capitalize font-jockey ml-2' >
+                <a href='/'><img   src={Cm} alt='cm' className=' h-10 w-auto ' /></a>
+                <a href='/' className=' text-4xl capitalize font-jockey ml-2' >
                     Suraj m rajeev
                 </a>
             </div>
