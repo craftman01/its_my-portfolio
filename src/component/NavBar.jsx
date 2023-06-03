@@ -28,13 +28,14 @@ const NavBar = () => {
         }
     ]
     return (
-        <div className='flex flex-row justify-around items-center  w-full h-16 px-4 text-white fixed bg-black' >
+        <div className='flex flex-row justify-between items-center z-50  w-full h-16 px-4 text-white fixed bg-black' >
 
-            <div className='flex flex-row justify-start items-center'>
-                <img src={Cm} alt='cm' className=' h-10 w-auto ' />
-                <h1 className=' text-4xl capitalize font-jockey ml-2' >
+            <div className='flex justify-start items-center'>
+                
+                <a href='home'><img   src={Cm} alt='cm' className=' h-10 w-auto ' /></a>
+                <a href='home' className=' text-4xl capitalize font-jockey ml-2' >
                     Suraj m rajeev
-                </h1>
+                </a>
             </div>
 
             <ul className='hidden md:flex'>

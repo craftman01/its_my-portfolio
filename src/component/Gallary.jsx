@@ -14,6 +14,7 @@ import RapBattle from "../assets/gallery.png";
 import HipHopBattle from "../assets/gallery.png";
 import SpotDance from "../assets/gallery.png";
 import BandofBrahma from "../assets/gallery.png";
+import Cm from "../assets/Group 1.png"
 
 const Gallary = () => {
   const images = [
@@ -156,7 +157,21 @@ const Gallary = () => {
   ];
 
   return (
+    <>
+    <div className='flex flex-row justify-between items-center z-10  w-full h-16 px-4 text-white fixed bg-black' >
+
+<div className='justify-start items-center'>
+    
+    <a href='home'><img   src={Cm} alt='cm' className=' h-10 w-auto ' /></a>
+    <a href='home' className=' text-4xl capitalize font-jockey ml-2' >
+        Suraj m rajeev
+    </a>
+</div>
+</div>
     <div name="gallary" className="h-auto w-full  bg-black p-10 ">
+
+
+      
       <div className=" flex flex-col p-4 justify-center items-center " >
       <div className='pb-8 md:pb-1  text-center'>
             <p className='text-white text-4xl font-bold inline   ' >
@@ -189,6 +204,7 @@ const Gallary = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

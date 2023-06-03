@@ -2,7 +2,7 @@
 // import Contact from "./component/Contact";
 // import Experince from "./component/Experince";
 // import Home from "./component/Home";
-import NavBar from "./component/NavBar";
+// import NavBar from "./component/NavBar";
 import Gallary from "./component/Gallary.jsx";
 import Social from "./component/Social";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
@@ -14,7 +14,7 @@ import AllEvents from "./pages/Event/AllEvents";
 function App() {
   return (
     <Router >
-      <NavBar />
+      {/* <NavBar /> */}
       <Social/>
       <Routes>
         <Route exact path="/" element={<Hero />} />

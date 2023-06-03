@@ -41,14 +41,14 @@ const Portfolio = () => {
                         Check my Works
                     </p>
                 </div>
-                <div className='grid grid-cols-2 md:grid-cols-3 gap-8 px- md:px-12 sm:px-0 ' >
+                <div className='grid grid-cols-2 md:grid-cols-3 gap-8  px- md:px-12 sm:px-0 ' >
                    
 
                    {images.map((image, index) => (
 
-                    <div key={index} className=' shadow-md shadow-gray-600  rounded-lg  ' >
+                    <div key={index} className=' shadow-md shadow-gray-600 duration-200 hover:scale-105 rounded-lg  ' >
                         <img                      
-                        className='  rounded-md duration-200 hover:scale-105 w-full '
+                        className='  rounded-md  w-full '
                         src={image.src} 
                         alt={image.name} />
 
@@ -64,10 +64,10 @@ const Portfolio = () => {
                    ))}
                     
 
-                <div className=' shadow-md shadow-gray-600 font-bold rounded-lg  ' >
-                        <img src={GALLARY} alt=' ' className='  rounded-md duration-200 hover:scale-105 w-full ' />
+                <div className=' shadow-md shadow-gray-600 duration-200 hover:scale-105 font-bold rounded-lg  ' >
+                        <img src={GALLARY} alt=' ' className='  rounded-md w-full ' />
                         <div className='flex items-center justify-center  '>
-                            <a href='/#/gallary' className='flex justify-center items-center w-4/5 px-2 md:px-6 py-3 duration-200 hover:scale-105  '  >
+                            <a href='its_my-portfolio/#/gallary' className='flex justify-center items-center w-4/5 px-2 md:px-6 py-3 duration-200 hover:scale-105  '  >
                                 Gallary
                             </a >
                         </div>

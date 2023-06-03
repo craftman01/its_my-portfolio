@@ -31,7 +31,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='md:pb-0 pb-8 relative '>
-                 <img src={HeroImage} alt='my profile' className='rounded-2xl w-8/9 mx-auto md:w-4/6 ' />
+                 <img src={HeroImage} alt='my profile' className='rounded-2xl  w-8/9 mx-auto md:w-4/6 ' />
                  </div>
             </div>
         </div>
