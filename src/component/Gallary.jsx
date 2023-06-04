@@ -482,8 +482,8 @@ const Gallary = () => {
 
 <div className='flex justify-start items-center'>
     
-    <a href='/'><img   src={Cm} alt='cm' className=' h-10 w-auto ' /></a>
-    <a href='/' className=' text-4xl capitalize font-jockey ml-2' >
+    <a href='/its_my-portfolio'><img   src={Cm} alt='cm' className=' h-10 w-auto ' /></a>
+    <a href='/its_my-portfolio' className=' text-4xl capitalize font-jockey ml-2' >
         Suraj m rajeev
     </a>
 </div>
