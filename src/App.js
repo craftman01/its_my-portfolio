@@ -8,7 +8,7 @@ import Social from "./component/Social";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Hero from "./pages/Hero";
 // import Event from "./pages/Event/Event";
-import AllEvents from "./pages/Event/AllEvents";
+// import AllEvents from "./pages/Event/AllEvents";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Hero />} />
         <Route exact path="/gallary" element={<Gallary/>} />
-        <Route exact path="/events" element={<AllEvents/>} />
+        {/* <Route exact path="/events" element={<AllEvents/>} /> */}
 
       </Routes>
     </Router>

@@ -2,7 +2,7 @@ import React from 'react'
 import ASWAMEDHA from "../assets/Aswamedha.png"
 import BRAHMA from "../assets/Brahma23.png"
 import HACK from "../assets/Hackathon.png"
-import GALLARY from "../assets/gallery.png"
+import GALLARY from "../assets/gallery.jpg"
  
 
 const Portfolio = () => {
@@ -68,7 +68,7 @@ const Portfolio = () => {
                         <img src={GALLARY} alt=' ' className='  rounded-md w-full ' />
                         <div className='flex items-center justify-center  '>
                             <a href='#/gallary' className='flex justify-center items-center w-4/5 px-2 md:px-6 py-3 duration-200 hover:scale-105  '  >
-                                Gallary
+                                Gallery
                             </a >
                         </div>
                     </div>
