@@ -53,7 +53,7 @@ const Footer = () => {
                 <li  
                  className={ "flex justify-center items-center p-1 w-fit h-fit rounded-full  bg-black"   }>
                     <a 
-                       href='/Craftman.pdf'
+                       href='Craftman.pdf'
                        download="craftman"
                        className='flex justify-between items-center w-full text-white ' 
                           
