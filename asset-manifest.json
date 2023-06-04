@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/its_my-portfolio/static/css/main.bdbef9fc.css",
-    "main.js": "/its_my-portfolio/static/js/main.18207c77.js",
+    "main.js": "/its_my-portfolio/static/js/main.fb5edb88.js",
     "static/media/jeespencil.webp": "/its_my-portfolio/static/media/jeespencil.dca63fd9cf1b7217cbd1.webp",
     "static/media/IMG.png": "/its_my-portfolio/static/media/IMG.71117221b868ddcfa572.png",
     "static/media/achu.webp": "/its_my-portfolio/static/media/achu.820e8398d6dbff4f416a.webp",
@@ -61,13 +61,14 @@
     "static/media/Brahma23.png": "/its_my-portfolio/static/media/Brahma23.cee0e96dd78d5a1c0762.png",
     "static/media/ben.webp": "/its_my-portfolio/static/media/ben.108274ba3f41a7183e7f.webp",
     "static/media/A10.webp": "/its_my-portfolio/static/media/A10.7d8efc72e52aea30a534.webp",
+    "static/media/gallery.jpg": "/its_my-portfolio/static/media/gallery.1bb4d400dc43797d2443.jpg",
     "static/media/souloforo.webp": "/its_my-portfolio/static/media/souloforo.ccc2c9c76155896e552a.webp",
     "index.html": "/its_my-portfolio/index.html",
     "main.bdbef9fc.css.map": "/its_my-portfolio/static/css/main.bdbef9fc.css.map",
-    "main.18207c77.js.map": "/its_my-portfolio/static/js/main.18207c77.js.map"
+    "main.fb5edb88.js.map": "/its_my-portfolio/static/js/main.fb5edb88.js.map"
   },
   "entrypoints": [
     "static/css/main.bdbef9fc.css",
-    "static/js/main.18207c77.js"
+    "static/js/main.fb5edb88.js"
   ]
 }
