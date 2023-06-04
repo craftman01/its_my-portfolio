@@ -1,14 +1,15 @@
 import React from 'react'
+import Footer from './Footer'
 
 const Contact = () => {
   return (
     <div name="contact" className=' h-screen w-full  bg-black p-10  ' >
-      <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full text-white ' >
-        <div className='pb-8 md:pb-1 text-center'>
+      <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto   text-white ' >
+        <div className='pb-4 md:pb-1 text-center'>
             <p className='text-4xl font-bold inline   ' >
                 Contact
             </p>
-            <p className='py-6 md:py-2' >
+            <p className='py-2 md:py-2' >
                 Submit the form to Talk
             </p>
 
@@ -21,12 +22,13 @@ const Contact = () => {
 
                 <textarea name='message' placeholder='Enter your message' rows='10' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none  '></textarea>
 
-                <button className='text-white bg-black px-3 py-3 my-2 mx-auto flex items-center rounded-lg border-2 hover:scale-105 duration-500' >
+                <button className='text-white bg-black px-3 py-3 my-3 mx-auto flex items-center rounded-lg border-2 hover:scale-105 duration-500' >
                     Let's talk
                 </button>
             </form>
         </div>
-      </div>
+        
+      </div><Footer />
     </div>
   )
 }

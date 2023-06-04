@@ -11,9 +11,7 @@ const About = () => {
                 About
             </p>
             <p className='text-xl pt-10  text-white' >
-I have  expertise creating and designing software.
-                        Currently, I enjoy working on web applications using tools like React, Tailwind, Firebase, and Flutter.
-                        <br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, debitis ipsa quasi optio ut culpa delectus quaerat nesciunt obcaecati ea libero quis, et tempore odit natus hic, neque laudantium vitae!
+            I possess expertise in software creation and design. Currently, I find great joy in developing web applications using tools such as React, Tailwind, Firebase, and Figma. Additionally, I am an artist with a passion for creating pencil drawings, illustrations, and intricate miniature pencil carvings.
             </p>
             
         </div>
